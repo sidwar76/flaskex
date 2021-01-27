@@ -32,7 +32,7 @@ steps:
 
 
 - script: |    
-    python setup.py sdist 
+    python app.py sdist 
   displayName: 'Artifact creation'
 - task: CopyFiles@2  
   inputs:    
